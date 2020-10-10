@@ -1,0 +1,12 @@
+{
+    "coc.preferences.formatOnSaveFiletypes": [
+        "rust"
+    ],
+    "explorer.width": 30,
+    "explorer.icon.enableNerdfont": true,
+    "explorer.keyMappings": {
+        "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
+        "v": "open:vsplit"
+    },
+    "explorer.position": "right"
+}
