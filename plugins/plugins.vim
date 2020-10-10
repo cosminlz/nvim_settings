@@ -19,7 +19,7 @@ Plug 'mhinz/vim-startify'
 Plug 'honza/vim-snippets'
 
 " Better tabline
-Plug 'mg979/vim-xtabline'
+" Plug 'mg979/vim-xtabline'
 
 " Smooth scrolling
 Plug 'psliwka/vim-smoothie'
@@ -36,6 +36,9 @@ Plug 'junegunn/fzf.vim'
 
 " Open in project
 Plug 'airblade/vim-rooter'
+
+" Pretty tabline
+Plug 'bagrat/vim-buffet'
 
 " Status line
 Plug 'vim-airline/vim-airline'

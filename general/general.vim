@@ -19,7 +19,6 @@ set laststatus=2	    " Always display status line
 set number		        " line number
 set cursorline		    " highlight current line
 set background=dark
-set showtabline=2	    " show tabs
 set noshowmode		    " don't show INSERT/VISUAL/...
 set nobackup		    " recomended by CoC
 set nowritebackup	    " recommended by CoC
