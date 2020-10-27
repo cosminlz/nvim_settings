@@ -1,6 +1,9 @@
 {
     "coc.preferences.formatOnSaveFiletypes": [
-        "rust"
+        "rust",
+        "python",
+        "cpp",
+        "h"
     ],
     "explorer.width": 30,
     "explorer.icon.enableNerdfont": true,
@@ -8,5 +11,40 @@
         "<cr>": ["expandable?", ["expanded?", "collapse", "expand"], "open"],
         "v": "open:vsplit"
     },
-    "explorer.position": "right"
+    "explorer.position": "right",
+    "explorer.file.hiddenRules": {
+        "extensions": [
+            "o",
+            "a",
+            "obj",
+            "pyc"
+        ],
+        "filenames": [],
+        "patternMatches": [
+            "^\\.",
+            "__pycache__",
+            ".egg-info$"
+        ]
+    },
+
+    "python.venvPath": "/home/cosmin/work/patents/patents-env",
+    "python.pythonPath": "/home/cosmin/work/patents/patents-env/bin/python",
+
+    "languageserver": {
+        "ccls": {
+            "command": "ccls",
+            "args": ["--log-file=/tmp/ccls.log", "-v=1"],
+            "filetypes": ["c", "cpp", "c++", "objc", "objcpp"],
+            "rootPatterns": [".ccls", "compile_commands.json"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls"
+                },
+                "client": {
+                    "snippetSupport": true
+                },
+                "highlight": { "lsRanges" : true }
+            }
+        }
+    }
 }

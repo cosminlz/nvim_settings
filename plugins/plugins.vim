@@ -43,4 +43,8 @@ Plug 'bagrat/vim-buffet'
 " Status line
 Plug 'vim-airline/vim-airline'
 
+" C++ highlight
+Plug 'rhysd/vim-clang-format'
+Plug 'jackguo380/vim-lsp-cxx-highlight'
+
 call plug#end()

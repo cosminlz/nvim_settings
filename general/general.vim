@@ -27,5 +27,7 @@ set signcolumn=yes
 set updatetime=300
 set timeoutlen=100
 set clipboard=unnamedplus
-set incsearch
-set guifont=Hack
+set incsearch            " search as you type
+set guifont=Hack         " the font
+set noswapfile           " no need for swap files
+set cc=88                " set a color column at 80
